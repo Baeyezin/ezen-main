@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>적정체중구하기</title>
+</head>
+<body>
+    <script>
+        var UserName = prompt("당신의 이름은?"," ");
+        var UserHeight = prompt("당신의 키는?", " ");
+        var UserWeight = prompt("당신의 몸무게는?", " ");
+
+        var NormalWeight = (UserHeight-100)*0.9;
+        document.write(NormalWeight, "<br>");
+
+        if(UserWeight>NormalWeight){
+            document.write(UserName + "님 살좀 빼셔야겠눈데여?")
+        }else if(UserWeight<=NormalWeight){
+            document.write(UserName + "님 very good!!")
+        }else{
+            document.write(UserName + "님 자신을 속이지 말아요!")
+        }
+    </script>
+</body>
+</html>
