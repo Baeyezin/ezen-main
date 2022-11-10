@@ -35,13 +35,13 @@ header{
 }
 .header_top ul li {
     color: #fff;
-    padding-right: 15px;
+    padding-right: 5px;
 }
 .header_top ul li a {
     display: block;
     color: #fff;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .header_top ul li a:hover {
     color: #FFCF00;
@@ -74,6 +74,7 @@ header{
     color: #000;
     font-size: 16px;
     font-weight: 700;
+    letter-spacing: -1px;
     display: block;
     padding: 5px 15px;
 }
@@ -96,6 +97,15 @@ header{
 /* ========== header end ========== */
 
 /* ========== main start ========== */
+
+.main{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1400px;
+    height: 500px;
+    background: url('../images/main.PNG') no-repeat 50% 50%;
+}
+
 /* ========== main end ========== */
 
 /* ========== best start ========== */
