@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/* 
+    LEGO INDEX PAGE
+    2022.11.10
+    배예진
+
+*/
+
+/* css 초기화 코드 */
+* { margin: 0; padding: 0; vertical-align: top; }
+li { list-style: none; }
+a { text-decoration: none; }
+img { border: 0; max-width: 100%; }
+body { font-family: 'Noto Sans KR', sans-serif; max-width: 1920px; min-width: 320px; margin: 0 auto; }
+
+
+/* ========== header start ========== */
+
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+.header_top{
+    width: 1400px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    background-color: #D01012; 
+}
+.header_top ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.header_top ul li {
+    color: #fff;
+    padding-right: 15px;
+}
+.header_top ul li a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.header_top ul li a:hover {
+    color: #FFCF00;
+}
+
+.header_btm{
+    width: 1400px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFCF00;
+}
+.header_btm img {
+    width: 55px;
+    height: 55px;
+}
+
+.logo{
+    padding-left: 20px;
+}
+
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav ul li a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    padding: 5px 15px;
+}
+.nav ul li a:hover {
+    color: #D01012;
+}
+
+.side ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.side ul li a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    display: block;
+    padding: 5px 10px;
+}
+
+/* ========== header end ========== */
+
+/* ========== main start ========== */
+/* ========== main end ========== */
+
+/* ========== best start ========== */
+/* ========== best end ========== */
+
+/* ========== latest start ========== */
+/* ========== latest end ========== */
+
+/* ========== vip start ========== */
+/* ========== vip end ========== */
+
+/* ========== media start ========== */
+/* ========== media end ========== */
+
+/* ========== story start ========== */
+/* ========== story end ========== */
+
+/* ========== footer start ========== */
+
+footer{
+    width: 100%;
+    margin: 0 auto;
+}
+.footer_top, .footer_btm {
+    width: 1400px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #590072;
+
+}
+
+/* ========== footer end ========== */
