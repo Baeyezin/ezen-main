@@ -20,8 +20,11 @@ body { font-family: 'Noto Sans KR', sans-serif; max-width: 1920px; min-width: 32
 header{
     width: 100%;
     margin: 0 auto;
+    background-color: #fff;
+    border-top: 10px solid #D01012;
 }
-.header_top{
+
+/* .header_top{
     width: 1400px;
     height: 30px;
     line-height: 30px;
@@ -45,7 +48,7 @@ header{
 }
 .header_top ul li a:hover {
     color: #FFCF00;
-}
+} */
 
 .header_btm{
     width: 1400px;
@@ -55,7 +58,6 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFCF00;
 }
 .header_btm img {
     width: 55px;
@@ -99,11 +101,38 @@ header{
 /* ========== main start ========== */
 
 .main{
-    overflow: hidden;
     margin: 0 auto;
     width: 1400px;
-    height: 500px;
-    background: url('../images/main.PNG') no-repeat 50% 50%;
+    /* background-color: #7f131b; */
+    /* background: url('../images/메인.jpg') no-repeat 50% 50%; */
+}
+.main_top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.main_text {
+    /* background: url('../images/harry_frame.jpg') no-repeat 50% 50%;
+    background-size: contain; */
+    text-align: center;
+    color: #000;
+}
+.main_title{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    margin-bottom: 40px;
+}
+.main_article{
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    margin-bottom: 50px;
+}
+.main_btn {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: -2px;
 }
 
 /* ========== main end ========== */
